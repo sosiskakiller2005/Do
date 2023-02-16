@@ -46,11 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppDAta\User.cs" />
     <Compile Include="AuthorisationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AuthorisationForm.Designer.cs">
       <DependentUpon>AuthorisationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectorForm.Designer.cs">
+      <DependentUpon>DirectorForm.cs</DependentUpon>
     </Compile>
     <Compile Include="EmptyForm.cs">
       <SubType>Form</SubType>
@@ -62,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AuthorisationForm.resx">
       <DependentUpon>AuthorisationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectorForm.resx">
+      <DependentUpon>DirectorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmptyForm.resx">
       <DependentUpon>EmptyForm.cs</DependentUpon>
